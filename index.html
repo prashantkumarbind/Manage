@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Run Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+		<style>
+				
+        img{border-top:2px solid white;}
+        ul{list-style:none; }
+        h4{ margin-left: 20px;
+            border-bottom: 2px solid white;
+        }
+ 
+	
+						.contain {
+						  
+						  width: auto;
+						  height:100%;
+						}
+
+						.item {
+						  align-items: center;
+						  background-color: tomato;
+						  color: white;
+						  display: flex;
+						 
+						  justify-content: center;	
+					}
+					.top-secton-header img{
+									 width:400px !important;
+									 height:250px !important;
+					}
+			.owl-carousel {
+					.owl-stage {
+						display: flex;
+					}
+					.owl-item {
+						display: flex;
+						flex: 1 0 auto;
+					}
+	.thumbnail {
+			display: flex;
+			flex-direction: column;
+			margin: 0 15px;
+			.caption {
+			display: flex;
+			flex: 1 0 auto;
+			flex-direction: column;
+			.flex-text {
+				flex-grow: 1;
+			}
+		}
+	}
+}
+		.bg-white{
+				box-shadow:0px 0px 10px  #3e4444,0px 0px 10px  #3e4444;
+		}
+		.underline{
+							width:100%;
+							height:40px;
+							background-color:red;
+							background-color:red;
+							margin-bottom:10px;
+							border-radius:60px;
+                            background-image:  linear-gradient(90deg, red ,rgb(193, 185, 185),green);
+		}
+        .our-services{
+
+                    background-image:  linear-gradient(90deg, yellow 40%, green);
+                    font-size: 20px;
+                    color:#909d9d;
+                    width:100%;
+                    height:40px;
+                    border-radius:50px;
+                    margin-bottom:10px;
+        }
+        .background-img{
+
+              
+                box-shadow: 0px 0px 4px #b4b4b4;
+        }
+            .nav-design:active{
+
+                transform: translate3d(0px,6px,0) rotate(180deg);
+                position: relative;
+                transform-origin: center center;
+                -webkit-transition: all 0.200s;
+	            transition: all 0.200s;
+                -webkit-transform: rotate(180deg);
+	            -ms-transform: rotate(180deg);
+	            transform: rotate(180deg);
+                transform-origin: left right;
+            }
+        </style>
+<body>
+	<!--  Itis the Header Part-->
+	<div class="header header-bar  pt-1">
+	         
+	</div>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative">
+        <nav class="navbar navbar-expand-lg mt-1 mb-1">
+            <a href="index.html" class="navbar-brand text-secondary">
+                <img src="img/logo.jpg" href="#">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <!-- <i class="fas fa-times"></i> --><i class="fas fa-chevron-up nav-design"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0 pr-3 border-right">
+                    <a href="index.html" class="nav-item nav-link active">HOME</a>
+                    <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                    <a href="welcome.html" class="nav-item nav-link">LANGUAGE</a>
+                    <a href="price.html" class="nav-item nav-link">GALLARY</a>
+                    <a href="project.html" class="nav-item nav-link">PROJECT</a>
+				<a href="contact.html" class="nav-item nav-link">THEORY</a>
+                    <div class="nav-item dropdown">
+                        <a href="contact.html" class="nav-link" data-toggle="dropdown">CONTACT</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                        </div>
+                    </div>
+             
+                </div>
+                <div class="d-none d-lg-flex align-items-center px-4">
+                    <i class="fa fa-2x fa-mobile-alt mr-3 bg-white"></i>
+                    <div>
+                        <h6 class="text-body text-uppercase mb-1"><small>Call Anytime</small></h6>
+                        <h6 class="m-0">+91 8459261459</h6>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start 
+    <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
+        <div class="row mx-0 align-items-center">
+            <div class="col-lg-6 px-md-5 text-center text-lg-left">
+                <h1 class="display-2 text-uppercase mb-3">Best Digital Marketing Agency</h1>
+                <p class="text-dark mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
+                    Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
+                    lorem dolore sed stet et est justo dolore.</p>
+                <a href="" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
+            </div>
+            <div class="col-lg-6 px-0 text-right">
+                <img class="img-fluid mt-5 mt-lg-0" src="img/header.png" alt="">
+            </div>
+        </div>
+    </div>
+     Header End -->
+								<!-- we are use the Owel Carousel slider-->
+	<div class="container-fluid ">
+			<div class="row row-lg">
+				<div class="col-12">
+						<div class="contain">
+						  <div id="owl-carousel" class="owl-carousel owl-theme">
+						    <div class="item">
+										<img src="img/11.PNG" href="#">
+						    </div>
+						    <div class="item">
+										<img src="img/12.jpg" href="#" style="width:100%;height:100%;">
+						    </div>
+						    <div class="item">
+									<img src="img/11.PNG" href="#">
+						    </div>
+						    <div class="item">
+									<img src="img/12.jpg" href="#" style="width:100%;height:100%;">
+						    </div>
+						    <div class="item">
+									<img src="img/11.PNG" href="#">
+						    </div>
+						    <div class="item">
+									<img src="img/12.jpg" class="img-fluid rounded" href="#" style="width:100%;height:100%;">
+						    </div>
+						  </div>
+						</div>
+				</div>
+			</div>
+	</div>
+		
+        <div class="container pt-5 pb-3 mx-5 text-center    ">
+            <strong class="mb-5" style="font-size: 35px;color: rgb(128, 171, 44);">IT Company Management</strong>
+            <div class="our-services"></div>
+            <div class="row">
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Web <span class="d-block text-body">Design</span></h4>
+                        <p class="m-0">Vero amet vero eos kasd justo ipsum diam sed elitr</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-code text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Web <span class="d-block text-body">Development</span></h4>
+                        <p class="m-0">Vero amet vero eos kasd justo ipsum diam sed elitr</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Digital <span class="d-block text-body">Marketing</span></h4>
+                        <p class="m-0">Vero amet vero eos kasd justo ipsum diam sed elitr</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-edit text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Content <span class="d-block text-body">Writing</span></h4>
+                        <p class="m-0">Vero amet vero eos kasd justo ipsum diam sed elitr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+				<!--  We are use the project work -->
+	<div class="section pt-5 top-secton-header">
+			<div class="container-fluid">
+				<div class="row">
+					<div id="owl-demo-2" class="owl-carousel owl-theme">						
+                        <div class="col-xl-4 col-md-4 col-sm-4 align-self-center bg-white manage-width">
+								<img src="img/11.png" href="#">
+						</div>
+				   </div>		
+				</div>
+			</div>
+        </div>
+				
+    <!-- Portfolio Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3 mx-5 text-center">
+            <strong class="mb-5" style="font-size: 35px;color: rgb(128, 171, 44);">My Family Images</strong>
+            <div class="our-services"></div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
+                            <i class="fa fa-star text-primary mr-2"></i>All
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
+                            <i class="fa fa-laptop-code text-primary mr-2"></i>Design
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
+                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Development
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/12.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid">
+        <div class="container pt-5 pb-3 mx-5 text-center">
+            <strong class="mb-5" style="font-size: 35px;color: rgb(128, 171, 44);">Comptetive Pricing</strong>
+            <div class="our-services"></div>
+            <div class="row">
+                <div class="col-lg-4 mb-2">
+                    <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
+                        <h2 class="text-uppercase">Basic</h2>
+                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
+                        <div class="text-center bg-dark rounded-circle p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top"
+                                    style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                    Mo</small>
+                            </h1>
+                        </div>
+                        <div class="text-center py-4">
+                            <p>HTML5 & CSS</p>
+                            <p>Bootstrap v4</p>
+                            <p>Responsive Layout</p>
+                            <p>Java Web Development</p>
+                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="bg-dark rounded text-center pt-5 mb-4">
+                        <h2 class="text-uppercase text-white">Standard</h2>
+                        <h6 class="text-uppercase text-secondary mb-5">The Best Choice</h6>
+                        <div class="text-center bg-primary rounded-circle p-4 mb-2">
+                            <h1 class="display-4 mb-0">
+                                <small class="align-top"
+                                    style="font-size: 22px; line-height: 45px;">$</small>99<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                    Mo</small>
+                            </h1>
+                        </div>
+                        <div class="text-center text-secondary py-4">
+                            <p>HTML5 & CSS3</p>
+                            <p>Bootstrap v4</p>
+                            <p>Responsive Layout</p>
+                            <p>Java Web Development</p>
+                            <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
+                        <h2 class=" text-uppercase">Extended</h2>
+                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
+                        <div class="text-center bg-dark rounded-circle p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top"
+                                    style="font-size: 22px; line-height: 45px;">$</small>149<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
+                                    Mo</small>
+                            </h1>
+                        </div>
+                        <div class="text-center py-4">
+                            <p>HTML5 & CSS3</p>
+                            <p>Bootstrap v4</p>
+                            <p>Responsive Layout</p>
+                            <p>Java Web Development</p>
+                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid">
+        <div class="container py-5 mx-5 text-center">
+            <strong class="mb-5" style="font-size: 35px;color: rgb(128, 171, 44);">My Blog Images</strong>
+		  <div class="underline design">
+						
+		  </div>
+            <div class="owl-carousel team-carousel position-relative" style="padding-left: 30px;">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/9.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">LAVKUSH KUMAR</h4>
+                        <p class="m-0">Developer</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/5.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">PRASHANT KUMAR </h4>
+                        <p class="m-0">Developer</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/3.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">PRASHANT KUMAR</h5>
+                        <p class="m-0">Developer</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/4.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">TEJASH KUMAR</h4>
+                        <p class="m-0">Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-1">
+        <div class="container py-5 mx-5 text-center">
+            <strong class="mb-5" style="font-size: 35px;color: rgb(128, 171, 44);">My Family Images</strong>
+		  <div class="underline design">
+						
+		  </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/7.jpg" alt="">
+                    <h5 class="text-uppercase">PRASHANT  KUMAR</h5>
+                    <p class="text-uppercase">Developr</p>
+                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/6.jpg" alt="">
+                    <h5 class="text-uppercase">PRASHANT KUMAR </h5>
+                    <p class="text-uppercase">Developer</p>
+                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/3.jpg" alt="">
+                    <h5 class="text-uppercase">PRASHANT KUMAR</h5>
+				<p class="text-uppercase">Developer</p>
+                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/12.jpg" alt="">
+                    <h5 class="text-uppercase">PRASHANT KUMAR</h5>
+                    <p class="text-uppercase">Developer</p>
+                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+            <!-- START THE SOME PART DESIGNING -->
+            <div class="section mx-5">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-xl-6 col-md-6 col-sm-6">
+                                    <div class="row background-img">
+                                        <div class="round img-fluid ">
+                                            <img src="img/4.jpg" width="150px" height="150px" style="border: 2px solid rgb(240, 231, 231);border-radius: 10px; padding: 5px;">
+                                        </div>
+                                            <div class="col-6 my-3">
+                                                <ul class="" style="list-style: none;">    
+                                                     <li>Name::<span><b style="color:#b2bbbb">PRASHANT KUMAR</b></span>
+                                                        <li>email::<span><b style="color:#b2bbbb">kumarbind463060@gmail.com</b></span>
+                                                            <li>Qualification::<span><b style="color:#b2bbbb;">B.C.A(C.S)</b></span>
+                                                                <li>Address::<span><b style="color:#b2bbbb;">HANDIA PRAYAGRAJ</b></span>
+                                                </ul>                                                                                                                 
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row text">
+                            <div class="col-4"></div>
+                            <div class="col-xl-6 col-md-12 col-sm-6">
+                                <div class="row background-img my-3">
+                            <div class="col-6 my-3">
+                                <ul class="" style="list-style: none;">    
+                                    <li>Name::<span><b style="color:#b2bbbb">PRASHANT KUMAR</b></span>
+                                       <li>email::<span><b style="color:#b2bbbb">kumarbind463060@gmail.com</b></span>
+                                           <li>Qualification::<span><b style="color:#b2bbbb;">B.C.A(C.S)</b></span>
+                                               <li>Address::<span><b style="color:#b2bbbb;">HANDIA PRAYAGRAJ</b></span>
+                               </ul>                                                                                                                                                                                                                                  
+                            </div>
+                            <div class="round img-fluid ">
+                                <img src="img/3.jpg" width="150px" height="150px" style="border: 2px solid #e5e8e8;border-radius: 10px; padding: 5px;margin-left: 135px;" class="">
+                            </div>
+                        </div>
+                </div>
+                            </div>
+                    </div>
+                </div>
+            <!-- Contact Start -->
+    <div class="container-fluid py-5 px-0">
+        <div class="row mx-3">
+            <div class="col-12 px-0 text-center">
+                <div class="position-relative h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7811.2464085579395!2d82.33053269277758!3d25.429571591310843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ffda5107c1357%3A0x919183d0994bd29e!2sChakiya%20Girdh%20Kot%2C%20Uttar%20Pradesh%20221502!5e0!3m2!1sen!2sin!4v1687747146626!5m2!1sen!2sin" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                                                               
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0 justify-content-center" style="margin-top: -200px;">
+            <div class="col-lg-6 col-md-8 col-sm-10 px-0">
+                <div class="contact-form bg-white rounded p-5">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div class="control-group">
+                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group">
+                                    <input type="email" class="form-control bg-light border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- </div> -->
+<!--  -->
+
+
+    <!-- Footer End -->
+    <div class="section mt-5 p-5" style="background-color: #D6DBDF;">
+        <div class="container bg-warning">
+            <div class="row bg-danger">
+                <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #566573 ;">
+                    <div class="">
+                       <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #FFA07A;">
+                    <div class="">
+                        <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #566573;">
+                    <div>
+                        <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                    </div>
+                </div> 
+           
+            <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #566573 ;">
+                <div class="">
+                   <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #FFA07A;">
+                <div class="">
+                    <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #566573;">
+                <div>
+                    <a href="assets/img/6.jpg" target="_blank"> <img class="img-fluid p-3" src="img/21.jpg"></a>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+    <div class="footer bg-dark mt-5 pt-5">
+        <div class="section text-light">
+            <div clas="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-start mb-5 ">
+                        <div class="bg-primary p-5">
+                            <h4 class="text-center">Company</h4>
+                                <ul>
+                                    <li><i class="fas fa-certificate"></i> <span>Applicaton Developing</span></li>
+                                    <li><i class="fas fa-certificate"></i> <span>Baking Software</span></li>
+                                    <li><i class="fas fa-certificate"></i> <span>Web Developing</span></li>
+                                    <li><i class="fas fa-certificate"></i> <span>UI Developing</span></li>
+                                    <li><i class="fas fa-certificate"></i> <span>Game Developing</span></li>
+                                    <li><i class="fas fa-certificate"></i> <span>Graphic Developing</span></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center mb-5">
+                        <div class="my-3 bg-info pt-5 pb-5" >
+                            <form>
+                                <div class="p-3">
+                                    <input type="text" placeholder="Your Name" name="name" class="w-100 ">
+                                </div>
+                                <div class="px-3">
+                                    <input type="text" placeholder="Your E-mail" name="name" class="w-100">
+                                </div>
+                                <div class="p-3">
+                                    <input type="submit" value="Subscribe" class="btn btn-lg bg-danger w-100 text-white">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 mb-5">
+                            <div>
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28820.790185002446!2d81.
+                                            8413018295702!3d25.45167421402467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                                            1s0x399ab529e33e24dd%3A0x24aa89285a62f922!2sChhota%20Baghara%20playground!5e0!3m2!1
+                                            sen!2sin!4v1688282456026!5m2!1sen!2sin" width="400" height="300" style="border:0;" 
+                                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                             </div>    
+                    </div>          
+                    <div class="col-12 text-center p-4 mt-2" style="color:#CCD1D1;background-color: #393b3b;">
+                        <i>Designed by::<span>P.K.Bind</span></i>
+                        <i>Copyright by::<span>www.p.k.com.</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+		<!-- We below use the owl carousel slider-->
+    <script>
+		$('#owl-carousel').owlCarousel({
+					    loop: true,
+					    margin: 30,
+					    dots: true,
+					    nav: false,
+					    items: 1,
+					    autoplay:true,
+					    autoplayHoverPause:false,
+					     loop:true,
+                         autoplayTimeout: 1500,
+		})
+		jQuery(document).ready(function ($) {
+	var owl = $("#owl-demo-2");
+	owl.owlCarousel({
+		autoplay: true,
+		autoplayTimeout: 1000,
+		autoplayHoverPause: true,
+		items: 3,
+		loop: true,
+		center: true,
+		rewind: true,
+		mouseDrag: true,
+		touchDrag: true,
+		pullDrag: true,
+		freeDrag: false,
+		margin: 40,
+		stagePadding: 0,
+		merge: false,
+		mergeFit: true,
+		autoWidth: false,
+		startPosition: 0,
+		rtl: false,
+		smartSpeed: 500,
+		fluidSpeed: true,
+		dragEndSpeed: false,
+		responsive: {
+			0: {
+				items: 1
+				// nav: true
+			},
+			480: {
+				items: 2,
+				nav: true,
+			},
+			768: {
+				items: 3,
+				// nav: true,
+				loop: true,
+			},
+			992: {
+				items: 3,
+				// nav: true,
+				loop: true,
+			}
+		},
+		responsiveRefreshRate: 200,
+		responsiveBaseElement: window,
+		fallbackEasing: "swing",
+		info: false,
+		nestedItemSelector: false,
+		itemElement: "div",
+		stageElement: "div",
+		refreshClass: "owl-refresh",
+		loadedClass: "owl-loaded",
+		loadingClass: "owl-loading",
+		rtlClass: "owl-rtl",
+		responsiveClass: "owl-responsive",
+		dragClass: "owl-drag",
+		itemClass: "owl-item",
+		stageClass: "owl-stage",
+		stageOuterClass: "owl-stage-outer",
+		grabClass: "owl-grab",
+		autoHeight: true,
+		lazyLoad: false
+	});
+
+	$(".next").click(function () {
+		owl.trigger("owl.next");
+	});
+	$(".prev").click(function () {
+		owl.trigger("owl.prev");
+	});
+});
+
+    </script>
+</body>
+
+</html>
